@@ -18,6 +18,10 @@
         "schedule",
         "online"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Robin7077/ical-today-fetcher.git"
+    },
     "author": "Robin7077",
     "license": "MIT",
     "devDependencies": {
