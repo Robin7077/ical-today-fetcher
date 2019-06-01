@@ -1,6 +1,6 @@
 {
     "name": "ical-today-fetcher",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Fetch all events for today for all given ics/ical urls",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
