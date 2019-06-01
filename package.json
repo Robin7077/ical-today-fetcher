@@ -25,16 +25,16 @@
     "author": "Robin7077",
     "license": "MIT",
     "devDependencies": {
-        "@types/jest": "^23.3.13",
-        "@types/node": "^10.12.21",
-        "jest": "^24.0.0",
-        "jest-cli": "^24.0.0",
-        "ts-jest": "^23.10.5",
-        "tslint": "^5.12.1",
-        "typescript": "^3.3.1"
+        "@types/jest": "^24.0.13",
+        "@types/node": "^12.0.4",
+        "jest": "^24.8.0",
+        "jest-cli": "^24.8.0",
+        "ts-jest": "^24.0.2",
+        "tslint": "^5.17.0",
+        "typescript": "^3.5.1"
     },
     "dependencies": {
-        "axios": "^0.18.0",
+        "axios": "^0.19.0",
         "ical-expander": "^2.0.0"
     },
     "jest": {

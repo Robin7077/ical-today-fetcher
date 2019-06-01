@@ -68,7 +68,7 @@ describe('TimeScheduleFetcher', () => {
         const fetchSchedule = jest.fn(async () => testResult);
         (TimeSchedulerController as jest.Mock<TimeSchedulerController>).mockImplementation(() => ({
             fetchSchedule
-        }));
+        }) as any);
         expect(await fetcher.fetchSchedule()).toStrictEqual(testResult);
         expect(fetchSchedule).toHaveBeenCalledTimes(1);
     });

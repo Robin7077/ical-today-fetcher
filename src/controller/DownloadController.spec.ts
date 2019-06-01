@@ -13,7 +13,7 @@ describe('DownloadControllerTest', () => {
     });
 
     it('DownloadFile', async () => {
-        const file = {test: 'test', test2: () => {}};
+        const file: any = {test: 'test', test2: () => {}};
         jest.spyOn(downloader, 'fetch').mockReturnValue(file);
         const downloadController = new DownloadController(downloader);
         const uri = 'https://abcde.abcde';

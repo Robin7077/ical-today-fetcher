@@ -17,7 +17,7 @@ describe('Downloader', () => {
     });
 
     it('should call axios.get with parameter "Hallo Test"', async () => {
-        const result = {
+        const result: any = {
             data: 'Hallo Test'
         };
         jest.spyOn(axios, 'get').mockReturnValue(result);
@@ -28,7 +28,7 @@ describe('Downloader', () => {
     });
 
     it('should call axios.get with parameter "paramter"', async () => {
-        const result = {
+        const result: any = {
             data: 'paramter'
         };
         jest.spyOn(axios, 'get').mockReturnValue(result);

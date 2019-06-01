@@ -13,7 +13,7 @@ describe('TimeSchedulerControllerTest', () => {
     beforeEach(() => {
         jest.clearAllMocks();
         downloader = new AxiosDownloader();
-        jest.spyOn(downloader, 'fetch').mockImplementation(() => {});
+        jest.spyOn(downloader, 'fetch').mockImplementation(async () => '');
     });
 
     it('CreateTimeSchedulerController', () => {
